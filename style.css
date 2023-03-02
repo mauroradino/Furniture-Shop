@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+.borde_header{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.llamanos{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.bi-telephone-fill{
+    margin: 14px;
+}
+.dropdown{
+    list-style-type: none;
+}
+.nav-link.dropdown-toggle{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.borde_end{
+    display: flex;
+}
+.bi-facebook{
+    margin-top: 15px;
+}
+.bi-twitter{
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.bi-instagram{
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.header{
+    background-color: whitesmoke;
+    color: black;
+    border-bottom: 1px rgb(161, 161, 161) solid;
+}
+.titulo{
+    font-family:'Playfair Display SC', serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.py-5{
+    color: white;
+    background-color: black;
+}
+.text-muted{
+    color: white !important;
+}
+.col-6{
+    margin-left: 30px;
+}
+.col-md-5{
+    margin-left: 10px;
+}
+.texto-footer{
+    text-align: center;
+}
+main{
+    height: 2000px;
+}
+.btn-primary {
+    --bs-btn-color: #212529;
+    --bs-btn-bg: #f8f9fa;
+    --bs-btn-border-color: #f8f9fa;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #212529;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: black;
+ }
