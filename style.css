@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playfair+Display+SC:wght@700&display=swap');
+body{
+    margin: 0px;
+}
 .borde_header{
     background-color: black;
     color: white;
@@ -60,10 +64,11 @@
     margin-left: 10px;
 }
 .texto-footer{
+    margin-top: 40px;
     text-align: center;
 }
 main{
-    height: 2000px;
+    height: 3500px;
 }
 .btn-primary {
     --bs-btn-color: #212529;
@@ -76,3 +81,48 @@ main{
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: black;
  }
+ .d-block{
+    width: 100%;
+ }
+ .row{
+    margin-right: 0px;
+ }
+ .container{
+    margin-top: 10%;
+ }
+ .card-btn{
+    background-color: whitesmoke;
+    border: 1px black solid;
+ }
+ .col{
+    margin-top: 30px;
+ }
+section{
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/23/14/29/living-room-1853203_1280.jpg);
+    background-size: cover;
+    margin-top: 100px;
+    padding-bottom: 200px;
+}
+.sectionh1{
+    padding-top: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+.button_section{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 45%;
+}
+.button_section:hover{
+    text-decoration: underline;
+}
+.fotobtn{
+    display: block;
+    padding-bottom: 200px;
+}
